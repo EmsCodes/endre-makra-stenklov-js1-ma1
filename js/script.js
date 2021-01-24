@@ -80,10 +80,10 @@ function createCats(cats){
             catAge = "Age unknown";
         }
 
-        list = list +`<div>
-                        <h5> Name: ${cats[i].name}</h5>
-                        <p> Age: ${catAge}</p>                    
-                    </div>`;    
+        list += `<div>
+                    <h5> Name: ${cats[i].name}</h5>
+                    <p> Age: ${catAge}</p>                    
+                 </div>`;    
 
         // console.log(list); 
     } 
@@ -91,6 +91,7 @@ function createCats(cats){
     return list; 
 
 }
+
 const finalHtml = createCats(cats);
 
 // console.log(finalHtml);
