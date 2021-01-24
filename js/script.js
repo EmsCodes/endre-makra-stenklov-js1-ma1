@@ -100,5 +100,3 @@ const container = document.querySelector(".cat-container");
 container.innerHTML = finalHtml;
 
 createCats(cats);
-
-console.log(container);
